@@ -1,0 +1,51 @@
+.roadMapTable {
+  max-width: 700px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.roadMapTable .old {
+  background-color: #f2f4f7;
+}
+
+.current {
+  background-color: white;
+  height: 65px;
+  border-left: 25px solid white;
+  border-right: 25px solid white;
+  box-shadow: -8px 8px 45px rgba(0, 0, 0, 0.18);
+}
+
+.new {
+  background-color: transparent;
+}
+
+.roadMapTable td {
+  height: 50px;
+  padding: 10px 20px;
+}
+
+.roadMapTable td:nth-child(2) {
+  width: 20px;
+  color: $green;
+  font-size: 20px;
+}
+
+.roadMapTable td:last-child {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+  color: $green;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+td {
+  line-height: normal;
+}
